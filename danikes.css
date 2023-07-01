@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+header {
+  background: url(img_5terre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  width: 1380px;
+  height: 700px;
+}
+nav {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin-right: 150px;
+  justify-content: end;
+}
+a {
+  text-decoration: none;
+  color: rgb(249, 238, 238);
+}
+li {
+  padding: 0 25px;
+}
+.logo h1 {
+  display: inline;
+  position: relative;
+  top: 1px;
+  left: 150px;
+}
+.h2 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 img {
+  width: 500px;
+  height: 600px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 0px;
+}
+.box {
+  margin-top: 30px;
+  right: 80px;
+  padding: 0px 25px;
+  font-size: 20px;
+  padding-left: 50px;
+}
+button {
+  border-color: transparent;
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: red;
+}
+#salom {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.bottom {
+  background-color: #ddd3d3;
+}
+
+.bottom-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 25px;
+}
+.inner {
+  background-color: white;
+  text-align: center;
+  height: 280px;
+  width: 650px;
+  margin: 25px;
+}
+.s1 {
+  display: flex;
+  padding: 40px 100px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.sec1 {
+  text-align: center;
+}
+.sec1 h1 {
+  font-size: 60px;
+}
+.h1 {
+  margin-top: 14%;
+}
+.skillbox {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.skillbox p {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.skillbox p:nth-child(2) {
+  float: right;
+  position: relative;
+  top: -33px;
+}
+
+.skill {
+  background: grey;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.skill_level {
+  background: black;
+  width: 100%;
+  height: 20px;
+}
+.inner h1 {
+  margin: 25px 0;
+}
+
+.inner img {
+  margin: 25px 0;
+}
+.Services {
+  text-align: center;
+  margin: 30px;
+  font-size: 30px;
+}
